@@ -6,7 +6,7 @@ Using these 9 cells any combinational or sequential circuit can be implemented. 
 An array of FPGA is also possible by connecting together multiple units to implement complex boolean functions. <br />
 
 <div style="width:40%; margin:auto; margin-bottom:10px; margin-top:20px;">
-  <img style="width:100%" src="3X3-FPGA-implementation-in-Verilog-HDL/IMAGES/CLB_block.jpg">
+  <img style="width:100%" src="https://github.com/apoorvgarg10/3X3-FPGA-implementation-in-Verilog-HDL/blob/master/IMAGES/fpga.jpg">
 </div>
 
 # Switch Box
