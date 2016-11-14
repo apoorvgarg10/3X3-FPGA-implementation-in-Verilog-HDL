@@ -13,7 +13,7 @@ An array of FPGA is also possible by connecting together multiple units to imple
 The switch box in our architecture was designed to route the signals in all the directions and is fully programmable.However, the signals aren’t allowed to change lines during switching.The simplicity of the design gives it an inherent flexibility of variable channel width i.e at any point of time the channel width can increase or decrease with minimal changes in the switch box structure.
 
 <div style="width:40%; margin:auto; margin-bottom:10px; margin-top:20px;">
-  <img style="width:100%" src="https://github.com/sarthakbp/FPGA-/blob/master/Images/Switchbox.jpg">
+  <img style="width:100%" src="https://github.com/apoorvgarg10/3X3-FPGA-implementation-in-Verilog-HDL/blob/master/IMAGES/SWITCH%20BOX.png">
 </div>
 
 L0 can be connected to U0, R0 and D0 only, and so on for all the other data lines. The data flow in between the any two nodes is controlled by two D flip-flops which can be programmed at configuration time.So, for this architecture there will be 60 SRAM bits to configure.
@@ -32,7 +32,7 @@ A logic block can be connected directly to 4 other connection boxes. So in order
 #Connection Box
 
 <div style="width:40%; margin:auto; margin-bottom:10px; margin-top:20px;">
-  <img style="width:100%" src="https://github.com/sarthakbp/FPGA/blob/master/Images/connectionbox.jpg">
+  <img style="width:100%" src="https://github.com/apoorvgarg10/3X3-FPGA-implementation-in-Verilog-HDL/blob/master/IMAGES/connectionbox.jpg">
 </div> 
 
 The connection box is connected to two Logic Blocks and switch boxes or I/O blocks. <br \>
