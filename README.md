@@ -36,4 +36,4 @@ A logic block can be connected directly to 4 other connection boxes. So in order
 </div> 
 
 The connection box is connected to two Logic Blocks and switch boxes or I/O blocks. <br \>
-The connection box in our architecture consists of 35 SRAM bits which are used to connect each line of either of the logic blocks or both further to the switch boxes and are also used to provide input/output and output to logic units and IO box respectively. 
+The connection box in our architecture consists of 35 SRAM bits which are used to connect each line of either of the logic blocks or both further to the switch boxes and are also used to provide input/output and output to logic units and I/O blocks respectively. 
